@@ -1,7 +1,10 @@
 # Download_91Porn
 91Porn 爬虫，实现看片自由。。。
 
-## Clone后修改如下变量
+## 一、控制台运行：  
+###  ```pytohn3 Download_91.py```   
+### Clone后修改Download_91.py如下变量
+
 
 ```python
     # number 6位整数，后三位可以修改，50为一次下多少部片。
@@ -10,6 +13,9 @@
     number_end=number+50
     client_src="D://资源//"
 ```
+
+## 二、图形界面运行：   
+### ```pytohn3 main.py```
 
 ## 待优化
 1. 爬下来的是分段的ts文件，可以使用potplayer播放器自动播放。
