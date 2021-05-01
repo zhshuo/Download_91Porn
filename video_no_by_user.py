@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-UID='aae8Wji4m8HxTnHxsKELfBKgGTYB3mwHKKf8Uxr8g1zSqvqR'
+UID='aae8Wji4m8'
 
 def url_public_video(uid,num=1):
     if num==1:
